@@ -1,29 +1,61 @@
 
-h1{
-	text-align: center;
-	background: grey;
-	color: #003366;
-	text-shadow: 2px 2px #464749;
-	padding: 5px;
-}
-.row {
-	text-align: center;
+body{
+	font-size: 16px;
+	color: black;
+	background-color: #B1ADAE;
 
 }
-#navbar{
-	background: grey;
-	color: white;
-	font-weight: bold;
-	text-decoration: underline;
-	padding: 0;
-	margin: 0;
-	width: auto;
-	max-width: all;
+.nav-item{
+	color: black;
+
 }
-header.container-fluid{
-	margin: 0;
-	padding: 0;
-	width: auto;
-	box-sizing: content-box;
-	max-width: all;
+#header-nav{
+	background: #527a7a;
+	color: black;
+	border-radius: 0;
+}
+#header{
+float: left;
+
+}
+#navbutton{
+background-color: grey;
+margin-top: 130px;
+
+
+
+
+}
+.navbar-nav{
+margin-left: auto !important;
+padding-top: 130px;
+font-size: 1.2rem;
+
+}
+.navbar-brand{
+	padding-top: 130px;
+	font-size: 1.5rem
+}/* header name*/
+.navbar-brand h1{
+	color: black;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a{
+	text-decoration: none;
+}
+
+
+
+#logo-img{
+	background: url(../img/callyslogo.png) no-repeat;
+	width: 165px;
+	height: 160px;
+	margin: 0px 5px 0px 0;
 }
