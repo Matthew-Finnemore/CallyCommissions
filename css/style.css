@@ -53,6 +53,7 @@ body {
 }
 .carousel-inner{
     max-height: 300px !important;
+    min-height: 300px !important;
 }
 
 
