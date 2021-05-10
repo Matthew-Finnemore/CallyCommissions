@@ -51,19 +51,21 @@ body {
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
 
 }
-.carousel-inner{
+.carousel-inner, .carousel-item{
     max-height: 660px !important;
-    min-width: 900px !important;
+   
+
+
+
 }
 
 
 /*---Change Carousel Transition Speed --*/
 .carousel-item{
     transition: transform 1.2s ease;
+
 }
-.carousel-inner .carousel-item {
-    height: 600px;  /* add this */
-  }
+
 
 /*-- Carousel Content --*/
 
