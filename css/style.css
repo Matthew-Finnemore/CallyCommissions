@@ -52,7 +52,7 @@ body {
 
 }
 .carousel-inner, .carousel-item{
-    /* max-height: 660px !important; */
+    max-height: 660px !important;
    
 
 
