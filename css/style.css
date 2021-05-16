@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Allerta', sans-serif;   
     color: #616971;
 
 }
@@ -148,6 +148,9 @@ footer a{
 footer a:hover{
     font-size: 2.6rem;
     color: teal;
+}
+.footer p {
+    font-size: 14px;
 }
 
 /*============= SOCKET =============*/
